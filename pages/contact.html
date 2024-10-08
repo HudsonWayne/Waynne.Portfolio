@@ -28,7 +28,7 @@
 </head>
 <body>
     <div class="container">
-        <form>
+        <form onsubmit="sendEmail(); reset(); return false;">
             <h3>GET IN TOUCH</h3>
             <input type="text" id="name" placeholder="Your Name" required>
             <input type="email" id="email" placeholder="Email id" required>
@@ -38,5 +38,20 @@
         </form>
     </div>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail() {
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "wayne@uncommon.org", // Replace with your email
+            Password: "your_app_password", // Use app password if needed
+            To: 'hudsonnbenhuraa@gmail.com',
+            From: document.getElementById("email").value,
+            Subject: "This is the subject",
+            Body: `Name: ${document.getElementById("name").value}<br>Phone: ${document.getElementById("phone").value}<br>Message: ${document.getElementById("message").value}`
+        }).then(
+            message => alert(message)
+        ).catch(error => console.error('Error sending email:', error));
+    }
+</script>
 </body>
 </html>
