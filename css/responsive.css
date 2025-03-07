@@ -13,9 +13,16 @@
         padding: 2%;
         margin: 0%;
     }
-
-    .site-main .site-banner .site-title h1{
-        font-size: 41px;
+    .img-fluidd {
+        display: none !important;
+    }
+    .site-main .site-banner .site-title h4 {
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+    .site-main .site-banner .site-title h1 {
+        font-size: 25px;
+        line-height: 0.5;
     }
 
     .site-main .subscribe-us-area .subscribe form .input-textbox input{
@@ -34,6 +41,11 @@
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;
+    }
+    .justify-content-center {
+        display: flex !important;
+        justify-content: center !important; /* Centers content horizontally */
+        align-items: center !important;  /* Centers content vertically (if needed) */
     }
 
     .site-main .brand-area .experience-area .years-area{
