@@ -290,6 +290,7 @@
     background: url(../img/subscribe-bg.png) no-repeat;
     padding: 10rem 0;
     margin: 3rem auto;
+    width: 100%;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4{

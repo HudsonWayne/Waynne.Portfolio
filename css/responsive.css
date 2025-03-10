@@ -13,6 +13,9 @@
         padding: 2%;
         margin: 0%;
     }
+    p{
+        width: 100%;
+    }
     .img-fluidd {
         display: none !important;
     }
