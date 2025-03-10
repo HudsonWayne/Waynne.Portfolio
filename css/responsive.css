@@ -22,36 +22,44 @@
     .site-main .site-banner .site-title h4 {
         font-size: 1.5rem;
         line-height: 2;
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .site-banner .site-title h1 {
         font-size: 25px;
         line-height: 0.5;
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .subscribe-us-area .subscribe form {
         width: 100%;  /* Ensures the form spans full width */
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .subscribe-us-area .subscribe form .input-textbox {
         width: 100%;  /* Ensures input box container takes full width */
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .subscribe-us-area .subscribe form .input-textbox input {
         width: 100% !important; /* Makes input field take full width */
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .subscribe-us-area .subscribe form .btn-submit {
         width: 100%;  /* Ensures button container spans full width */
         text-align: center;
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .subscribe-us-area .subscribe form .btn-submit button {
         width: 100%;  /* Makes subscribe button take full width */
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main > .services-area .services{
         width: 10rem;
+        font-family: Arial, Baskerville, monospace;
     }
 }
 
@@ -71,24 +79,29 @@
         display: flex !important;
         justify-content: center !important; /* Centers content horizontally */
         align-items: center !important;  /* Centers content vertically (if needed) */
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .brand-area .experience-area .years-area{
         padding-left: 1%;
         width: 49%;
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .brand-area .experience-area .bg-panel{
         margin-left: 30%;
-        width: 80%;   
+        width: 80%; 
+        font-family: Arial, Baskerville, monospace;  
     }
 
     .site-main .brand-area .experience-area .call-area{
         padding-left: 3%;
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .project-area .button-group button{
         font: normal 500 18px/40px var(--roboto);
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .about-area .about-title p{
@@ -99,6 +112,7 @@
     .site-main .subscribe-us-area .subscribe form .input-textbox input{
         width: 13rem;
         margin: 5%;
+        font-family: Arial, Baskerville, monospace;
     }
 }
 
@@ -108,16 +122,19 @@
 @media only screen and (max-width: 1910px){
     .header_area .main-menu .navbar{
         padding: 1rem;
+        font-family: Arial, Baskerville, monospace;
     }
 
     .container{
         max-width: 90%;
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .brand-area,
     .site-main .services-area .services-title,
     .site-main .about-area{
         padding: 3% 4%;
+        font-family: Arial, Baskerville, monospace;
     }
 
 
