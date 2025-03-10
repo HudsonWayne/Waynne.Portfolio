@@ -62,6 +62,7 @@
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;
+        font-family: Arial, Baskerville, monospace;
     }
     .img-fluidd {
         display: none !important;
@@ -92,6 +93,7 @@
 
     .site-main .about-area .about-title p{
         padding: 0%;
+        font-family: Arial, Baskerville, monospace;
     }
 
     .site-main .subscribe-us-area .subscribe form .input-textbox input{
