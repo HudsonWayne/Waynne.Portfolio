@@ -520,19 +520,19 @@
             <div class="container subscribe">
                 <div class="row">
                     <div class="col-lg-12 text-center subscribe-title">
-                        <h4 class="text-uppercase">Get Update From anywhere.</h4>
-                        <p class="para">Get the latest news, updates, and insights no matter where you are. Stay connected and informed effortlessly.😊👌</p>
+                        <h4 class="text-uppercase">Get Updates from Anywhere</h4>
+                        <p class="para">Get the latest news, updates, and insights no matter where you are. Stay connected and informed effortlessly. 😊👌</p>
                     </div>
                 </div>
-                <div class="d-sm-flex justify-content-center">
+                <div class="d-flex justify-content-center">
                     <form class="w-50">
                         <div class="row d-flex flex-row flex-wrap">
                             <div class="col input-textbox">
-                                <input type="text" id="txtemail" class="form-control" placeholder="Email">
+                                <input type="text" id="emailInput" class="form-control" placeholder="Email" onclick="openPopup()">
                             </div>
                             <div class="col">
                                 <div class="btn-submit">
-                                    <button type="submit" class="btn btn-success float-right">Subscribe</button>
+                                    <button type="button" class="btn btn-success float-right" onclick="openPopup()">Subscribe</button>
                                 </div>
                             </div>
                         </div>
@@ -540,6 +540,14 @@
                 </div>
             </div>
         </section>
+        <div class="popup-form" id="popupForm">
+            <h4>Subscribe Now</h4>
+            <form id="subscribeForm">
+                <input type="email" id="popupEmail" placeholder="Enter your email" required>
+                <button type="submit">Send</button>
+                <button type="button" class="close-btn" onclick="closePopup()">Cancel</button>
+            </form>
+        </div>
         <!--  ========================== End Subscribe me Area ============================  -->
 
 

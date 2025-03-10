@@ -1,42 +1,60 @@
-
-
-
 /* if the viewport is equal to 340px or less than that */ 
 @media only screen and (max-width: 340px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
-    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, 
     .site-main .services-area,
     .site-main .subscribe-us-area .subscribe
     {
         padding: 2%;
         margin: 0%;
     }
+
     p{
         width: 100%;
     }
+
     .img-fluidd {
         display: none !important;
     }
+
     .site-main .site-banner .site-title h4 {
         font-size: 1.5rem;
         line-height: 2;
     }
+
     .site-main .site-banner .site-title h1 {
         font-size: 25px;
         line-height: 0.5;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 15rem    !important;
+    .site-main .subscribe-us-area .subscribe form {
+        width: 100%;  /* Ensures the form spans full width */
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox {
+        width: 100%;  /* Ensures input box container takes full width */
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 100% !important; /* Makes input field take full width */
+    }
+
+    .site-main .subscribe-us-area .subscribe form .btn-submit {
+        width: 100%;  /* Ensures button container spans full width */
+        text-align: center;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .btn-submit button {
+        width: 100%;  /* Makes subscribe button take full width */
     }
 
     .site-main > .services-area .services{
-        width: 13rem;
+        width: 10rem;
     }
-
 }
+
 
 
 /* if the viewport is equal to 340px or less than that */ 

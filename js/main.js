@@ -61,3 +61,24 @@ $(document).ready(function () {
     navbarFixed();
 
 });
+
+
+function openPopup() {
+    document.getElementById("popupForm").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popupForm").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
+
+document.getElementById("subscribeForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    let email = document.getElementById("popupEmail").value;
+    
+    // Sending email using mailto
+    window.location.href = `mailto:hudsonnbenhuraa@gmail.com?subject=Subscription Request&body=Please subscribe me with this email: ${email}`;
+
+    closePopup();
+});
